@@ -1,0 +1,40 @@
+{
+    "name": "s3bul/php-imap",
+    "description": "Manage mailboxes, filter/get/delete emails in PHP (supports IMAP/POP3/NNTP)",
+    "version": "0.1.0",
+    "keywords": [
+        "PHP",
+        "mail",
+        "IMAP",
+        "POP3",
+        "mailbox",
+        "receive emails"
+    ],
+    "minimum-stability": "stable",
+    "homepage": "https://github.com/s3bul/php-imap",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sebastian Korzeniecki",
+            "email": "seba5zer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "php-imap/php-imap": "^4.5.1"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "S3bul\\": "src/"
+        }
+    },
+    "scripts": {
+        "safe-update": [
+            "composer update --ignore-platform-reqs"
+        ]
+    }
+}
