@@ -34,7 +34,7 @@
     },
     "scripts": {
         "safe-update": [
-            "composer update --ignore-platform-reqs"
+            "composer update --no-interaction --no-ansi --ignore-platform-reqs"
         ]
     }
 }
